@@ -2,6 +2,9 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0%;
+  
+}
+#full_body{
   padding: 70px 100px;
 }
 /* Header Style */
@@ -124,5 +127,9 @@ footer {
   text-align: center;
   font-size: larger;
   background-color: #1d1d57;
+  color: white;
+}
+footer a{
+  text-decoration: none;
   color: white;
 }
