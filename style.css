@@ -188,31 +188,3 @@ footer a{
     border-radius: 18px;
   }
 }
-@media (min-width: 900px) {
-  *body {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-  }
-  #full_body {
-    padding: 70px 100px;
-  }
-  section {
-    display: grid;
-  }
-  .width {
-    padding: 0%;
-    width: 100%;
-  }
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  #influencer-img {
-    padding-right: 30px;
-  }
-  #booking-text {
-    width: 270px;
-    height: 200px;
-  }
-}
