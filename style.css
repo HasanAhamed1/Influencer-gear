@@ -105,11 +105,23 @@ hr {
 .price {
   font-size: larger;
 }
-#new_page a {
-  margin-top: 40px;
+.stars i{
+  font-size:1.7rem;
+  color:orange;
+}
+.new_page{
+  margin-top: 20px;
+}
+.new_page a {
   display: flex;
   justify-content: right;
   text-decoration: none;
+  color: #e02c6d;
+  font-weight: 600;
+}
+.new_page i{
+  padding-top: 3px;
+  padding-left: 5px;
 }
 
 #influencer-img {
