@@ -146,3 +146,45 @@ footer a{
   text-decoration: none;
   color: white;
 }
+
+
+@media (max-width: 700px) {
+  *body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #booking-text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .width {
+    padding: 0%;
+    width: 100%;
+  }
+  #booking-img:hover {
+    width: 300px;
+    height: 314px;
+    padding-left: 20px;
+    transform: scale(1) rotate(360deg);
+    transition: transform 5s ease-in-out;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #influencer-img {
+    padding-top: 50px;
+    width: 300px;
+    height: 250px;
+    border-radius: 18px;
+  }
+}
